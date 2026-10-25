@@ -53,6 +53,7 @@ AppDataSource.initialize().then(async () => {
         })
     )
     */
+   //modulo sense docencia
     let mod1 = new Modulo()
     mod1.codigo = 'codigo1'
     mod1.nombre = 'nombre1'
@@ -61,6 +62,7 @@ AppDataSource.initialize().then(async () => {
     await AppDataSource.manager.save(mod1)
     console.log("modul despres de guardar")
     console.log(mod1)
+    
     //modulo sense docencia
     let mod2 = new Modulo()
     mod2.codigo = 'codigo2'
